@@ -2,7 +2,6 @@ import math
 import tkinter as tk
 from pathlib import Path
 from tkinter import ttk
-from ttkthemes import ThemedTk
 from PIL import Image, ImageTk
 import image_vers_graphe
 import os
@@ -17,7 +16,7 @@ class interface_graphique:
         Constructeur de l'interface graphique, création de la fenêtre, positionnement des boutons et labels.
         """
 
-        self.racine = ThemedTk()
+        self.racine = tk.Tk()
         self.racine.title("Plus court chemin sur image")
         self.racine.geometry("1600x900")
 
@@ -57,7 +56,8 @@ class interface_graphique:
         #création et positionnement des différents boutons, voir README pour l'explication de chaque bouton/label.
         self.bouton_coord = tk.Button(self.cadre_entree_uti, text="démarrer", command=self.afficher_chemin)
 
-        self.liste_chemins = os.listdir('res/')
+        repertoire_courant = Path(__file__).parent
+        self.liste_chemins = os.listdir(repertoire_courant.parent/'res/')
         self.liste_var = tk.StringVar()
 
         self.chemin = ttk.OptionMenu(self.cadre_entree_uti, self.liste_var, "image", *self.liste_chemins, command=self.afficher_image)
