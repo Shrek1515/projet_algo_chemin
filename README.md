@@ -2,7 +2,7 @@
 ## Creation d'un environnement virtuel
 Dans le répertoire du projet tapez :
 ```bash
-python -m venv env
+python3 -m venv env
 ```
 Puis :
 ```bash
@@ -14,7 +14,7 @@ Une fois l'environnement virtuel créé et activé il vous faudra installer Pill
 pip install Pillow
 ```
 ## Lancement du projet
-Lancez le projet en vous plaçant dans le répertoire source et en exécutant :
+Lancez le projet en vous plaçant dans le répertoire src/ et en exécutant :
 ```bash
 python3 main.py
 ```
