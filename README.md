@@ -1,6 +1,6 @@
 # Installation du projet
 ## Creation d'un environnement virtuel
-Dans le répertoire du projet choix tapez :
+Dans le répertoire du projet tapez :
 ```
 python -m venv env
 ```
@@ -9,12 +9,12 @@ Puis :
 source env/bin/activate
 ```
 ## Installation de PIllow
-Une fois le l'environnement virtuel créé et activé il vous faudra installer Pillow via pip :
+Une fois l'environnement virtuel créé et activé il vous faudra installer Pillow via pip :
 ```
 pip install Pillow
 ```
 ## Lancement du projet
-Lancer le projet en vous plaçant dans le répertoire source et en exécutant :
+Lancez le projet en vous plaçant dans le répertoire source et en exécutant :
 ```
 python3 main.py
 ```
@@ -23,7 +23,7 @@ python3 main.py
 Avant de lancer le projet, veuillez mettre l'image que vous souhaitez tester dans le répertoire res. 
 Une fois dans l'interface, sélectionnez l'image via le menu déroulant en haut.
 ## Dimensions
-Vous avez la possibilité de redimensionner l'image, pour se faire entrer le coefficient multiplicateur de votre choix, 
+Vous avez la possibilité de redimensionner l'image, pour se faire entrez le coefficient multiplicateur de votre choix, 
 entrez un nombre > 1 pour diminuer la taille, entre 0 et 1 (exclus) pour l'augmenter.
 
 <img src="miniatures/dimensions.png" alt="alt text" width="810" height="477" align="center">
