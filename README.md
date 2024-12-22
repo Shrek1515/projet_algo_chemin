@@ -1,21 +1,21 @@
 # Installation du projet
 ## Creation d'un environnement virtuel
 Dans le répertoire du projet tapez :
-```
+```bash
 python -m venv env
 ```
 Puis :
-```
+```bash
 source env/bin/activate
 ```
 ## Installation de PIllow
 Une fois l'environnement virtuel créé et activé il vous faudra installer Pillow via pip :
-```
+```bash
 pip install Pillow
 ```
 ## Lancement du projet
 Lancez le projet en vous plaçant dans le répertoire source et en exécutant :
-```
+```bash
 python3 main.py
 ```
 # Utilisation de l'interface graphique
