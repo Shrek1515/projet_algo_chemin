@@ -8,7 +8,7 @@ Puis :
 ```bash
 source env/bin/activate
 ```
-## Installation de PIllow
+## Installation de Pillow
 Une fois l'environnement virtuel créé et activé il vous faudra installer Pillow via pip :
 ```bash
 pip install Pillow
